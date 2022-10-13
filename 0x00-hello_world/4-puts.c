@@ -4,7 +4,9 @@
 int main(void)
 {
 	char word[100];
-	strcpy(word, "Programming is like building a multilingual puzzle");
+
+	strcpy(word, "\"Programming is like building a multilingual puzzle");
 	puts(word);
+
 	return (0);
 }
