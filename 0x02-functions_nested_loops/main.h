@@ -3,7 +3,7 @@
 /**
  * print_putchar: a function that prints the word _putchar
  *
- * print_alphat: a function that prints alphabets
+ * print_alphabet: a function that prints alphabets
  *
  * return always 0 (success)
  */
@@ -12,7 +12,7 @@ void print_putchar()
 	printf("_putchar\n");
 
 }
-void print_alphabet(void)
+void print_alphabet()
 {
         char c;
 

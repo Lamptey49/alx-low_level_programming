@@ -8,7 +8,6 @@
  *
  * Return: Always 0 (Success)
  *
- * print_alphabet: prints alphabets
  */
 
 int main(void)
