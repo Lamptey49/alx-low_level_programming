@@ -18,6 +18,6 @@ void print_alphabet(void)
 
         for (c = 'a'; c <= 'z'; c++)
         {
-                printf(c);
+                putchar(c);
         }
 }
