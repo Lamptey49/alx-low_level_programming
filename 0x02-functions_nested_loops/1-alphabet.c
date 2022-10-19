@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  * main- Entry point
  *
@@ -9,15 +10,7 @@
  *
  * print_alphabet: prints alphabets
  */
-void print_alphabet(void)
-{
-	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		printf(c);
-	}
-}
 int main(void)
 {
 	print_alphabet();
