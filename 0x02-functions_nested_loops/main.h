@@ -7,9 +7,5 @@
  *
  * return always 0 (success)
  */
-void print_putchar()
-{
-	printf("_putchar\n");
-
-}
+void print_putchar(void);
 void print_alphabet(void);
