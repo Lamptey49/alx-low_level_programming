@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main- Entry point
+ *print_alphabet - prints the alpahbets
  *
  * Description: 'program description here'
  *
@@ -13,16 +13,9 @@ void print_alphabet(void)
 {
 	char al;
 
-	for ( al = 'a'; al <= 'z'; al++)
+	for (al = 'a'; al <= 'z'; al++)
 	{
 		_putchar(al);
 	}
-	putchar('\n');
-}
-
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
+	_putchar('\n');
 }
