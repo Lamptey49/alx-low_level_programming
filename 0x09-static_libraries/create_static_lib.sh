@@ -1,2 +1,3 @@
 #!/bin/bash
-ar rcs *.c liball.a
+gcc -c *.c
+ar rcs liball.a *.o
