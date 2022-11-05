@@ -8,7 +8,7 @@
  * @argv: the value
  * Return: 0 if true and 1 if false
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 	int a;
 	int b;
