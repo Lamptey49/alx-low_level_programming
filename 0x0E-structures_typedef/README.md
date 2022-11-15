@@ -1,0 +1,1 @@
+tyepedef struct in c
