@@ -1,4 +1,3 @@
-vi 100-main_opcodes.c 
 #include <stdio.h>
 #include <stdlib.h>
 
